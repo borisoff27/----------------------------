@@ -12,6 +12,12 @@ body {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
 .wrapper {
     /* overflow: hidden; */
     display: flex;
@@ -55,6 +61,8 @@ nav ul li{
 nav ul li:hover{
     background: #cc99cc;
     transition: .7s;
+    box-shadow: inset 0 -10px 15px -10px #602B7A;
+
 }
 
 nav ul li a {
@@ -77,31 +85,34 @@ aside {
     position: absolute;
     top: 150px;
     height: 100%;
-    width: 20%;
+    width: 22%;
 }
 
 .content a {
+    font-weight: bold;
+    color: #602B7A;
     text-decoration: none;
-    /* padding: 5px 0; */
-    
+    border-bottom: 2px solid rgba(0,0,0,0);   
+}
+
+.content a:visited {
+    color: #602B7A;
 }
 
 .content a:hover {
     transition: .5s;
-    border-left: none; 
-    border-right: none; 
+    border-left: none;
+    border-right: none;
     border-top: none;
     border-bottom: 2px solid;
-    border-image: linear-gradient(to right, rgba(0,0,0,0), #90acaa, #6A9393, rgba(0,0,0,0) ) 47% 0%;
+    border-image: linear-gradient(to right, rgba(0,0,0,0), #602B7A, rgba(0,0,0,0) ) 47% 0%;
 }
 
 .sticky {
-    /* width: 20%; */
     padding: 20px;
     position:sticky;
     position: -webkit-sticky;
     top: 0;
-
 }
 
 .sticky li {
@@ -130,7 +141,6 @@ hr {
 main {
     width: 60%;
     margin: 0 auto 50px auto;
-    /* position: absolute; */
 }
 
 main img {
@@ -238,6 +248,14 @@ main li {
 .icon {
     width: 20px;
     margin-bottom: -5px;
+}
+
+.TIY {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(4, 170, 109);
+    color: white;
+    font-weight: bold;
 }
 
 footer {
