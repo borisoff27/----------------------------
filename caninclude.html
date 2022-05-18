@@ -2,50 +2,87 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Главная</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Can Include</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="navbar">
-                <a href="index.html"><img class="logo" src="img/logo.png" alt="Логотип"></a>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Главная</a></li>
-                        <li><a href="vscode.html">VS Code</a></li>
-                        <li><a href="github.html">GitHib</a></li>
-                        <li><a href="w3schools.html">W3Schools</a></li>
-                        <li><a href="webgradients.html">Web-градиенты</a></li>
-                        <li><a href="colorscheme.html">Color Scheme</a></li>
-                        <li class="active-nav-item"><a href="caninclude.html">Can Include</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <h1>Тег в теге<br> Возможно ли?</h1>
-            <!-- <ul class="breadcrumbs">
+  <div class="wrapper">
+    <header>
+      <div class="navbar">
+        <a href="index.html"><img class="logo" src="img/logo.png" alt="Логотип"></a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="vscode.html">VS Code</a></li>
+            <li><a href="github.html">GitHib</a></li>
+            <li><a href="w3schools.html">W3Schools</a></li>
+            <li><a href="webgradients.html">Web-градиенты</a></li>
+            <li><a href="colorscheme.html">Color Scheme</a></li>
+            <li class="active-nav-item"><a href="caninclude.html">Can Include</a></li>
+          </ul>
+        </nav>
+      </div>
+      <h1>Тег в теге<br> Возможно ли?</h1>
+      <!-- <ul class="breadcrumbs">
             <li><a href="#">Главная</a></li>
             <li>VSCode</li>
         </ul> -->
-        </header>
-        <main>
-            
-        </main>
-        <footer>
-            <div class="content">
-                <div class="description">
-                    <p>Международная детская школа программирования Алгоритмика</p>
-                    <p class="address">Екатеринбург, ул. Уральская, 59</p>
-                    <p class="phone">8800555355</p>
-                </div>
-                <div class="socials">
-                    <a href="https://vk.com/programmirovanie66" target="_blank"><img src="img/vk-com.png" alt=""></a>
-                </div>
-            </div>
-        </footer>
-    </div>
-</body>
+    </header>
+    <main>
+      <p class="glass text">
+        <a href="https://caninclude.glitch.me/" target="_blank" rel="noopener noreferrer">Can include</a>
+        – сайт, на котором вы можете проверить, возможно ли один тег разместить в другом, чтобы всё работало.
+      </p>
+      <img src="img/CanInclude/1.png" alt="">
+      <div id="toTop"> Наверх </div>
+      <div class="glass">
 
+        <p class="text">
+          Слева пишется вложенный (дочерний) тег, справа – родительский.
+          <br>
+          <br>
+          Проверим, например, можно ли вложить тег <b>a</b> в тег <b>p</b>.
+        </p>
+      </div>
+      <img src="img/CanInclude/2.png" alt="">
+
+      <p class="glass text">
+        По зелёному личку становится понятно, что так можно
+      </p>
+      <img src="img/CanInclude/3.png" alt="">
+
+      <p class="glass text">
+        Попробуем поменять теги местами. Нажмите на кнопку <b>Swap tags.</b> Лицо стало жёлтым. Это ззначит, что
+        синтаксически допустимо, но крайне не желательно.
+      </p>
+      <img src="img/CanInclude/4.png" alt="">
+
+      <p class="glass text">
+        Теперь проверим, можно ли вложить тег <b>h3</b> в тег <b>p</b>.
+      </p>
+      <img src="img/CanInclude/6.png" alt="">
+
+      <p class="glass text">
+        По красным недовольным лицам легко понять, что так нельзя.
+      </p>
+    </main>
+    <div id="toTop"> Наверх </div>
+    <footer>
+      <div class="content">
+        <div class="description">
+          <p>Международная детская школа программирования Алгоритмика</p>
+          <p class="address">Екатеринбург, ул. Уральская, 59</p>
+          <p class="phone">8800555355</p>
+        </div>
+        <div class="socials">
+          <a href="https://vk.com/programmirovanie66" target="_blank"><img src="img/vk-com.png" alt=""></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
 </html>
